@@ -7,7 +7,7 @@ body{
 }
 header{
     font-family: 'Abril Fatface';
-    color: default;
+    color: black;
 }
 header h1{
     text-align: center;
@@ -38,6 +38,9 @@ main h2 {
 text-align: left;
 }
 nav {
+    position: sticky;
+    top: 1px;
+    background-color: white;
     border-top:  solid 1px #777;
     border-bottom: solid 1px #777;
     text-align: left;
@@ -53,7 +56,8 @@ nav a {
     color: #777;
     
 }
-nav li {
+nav li { 
+    
    
     
     display: inline;
